@@ -13,4 +13,8 @@ The webpage will comprised of the following:
 
 2. Fossil Fuels 101 - This page will discuss what fossil fuels are and why does it affect climate change. Aside from this, this page will also tell us how big is the impact of fossil fuels on the climate change and our planet. 
 
-3. Deforestation - In this page, we will talk through what is deforestation and its relationship to climate change.
+3. Deforestation - In this page, we will talk through what is deforestation and its relationship to climate change. 
+
+4. Clean Energy (work in progress) - 
+
+5. Solutions (work in progress) - 
