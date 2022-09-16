@@ -15,6 +15,6 @@ The webpage will comprised of the following:
 
 3. Deforestation - In this page, we will talk through what is deforestation and its relationship to climate change. 
 
-4. Clean Energy (work in progress) - 
+4. Clean Energy - In this page, we will tackle what clean energy is and how does it affect climate change.
 
-5. Solutions (work in progress) - 
+5. Solutions - Lastly, for this page, we will discuss the possible solutions and actions we can do in order to pervent climate change. Also, we will include lists of organizations that focuses on environemntal awareness and issues. 
