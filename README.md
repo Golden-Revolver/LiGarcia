@@ -27,4 +27,6 @@ Our website will comprised of the following:
 
 <br> <strong> **III. Initial Wireframe** </strong> <br>
 
-https://www.canva.com/design/DAFMWzwljXU/DTRAToNpJxU2JB4sNubQkw/view?utm_content=DAFMWzwljXU&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu
+Design #1: https://www.canva.com/design/DAFMWzwljXU/DTRAToNpJxU2JB4sNubQkw/view?utm_content=DAFMWzwljXU&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu
+
+Design #2: https://www.canva.com/design/DAFMrAcZgD0/Rqa1Js8Eg_9C8his1DCqdQ/view?utm_content=DAFMrAcZgD0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
