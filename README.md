@@ -25,6 +25,8 @@ Our website will comprised of the following:
 
 5. Solutions - Lastly, for this page, we will discuss the possible solutions and actions we can do to prevent and lessen the effects of climate change. We will also include lists of organizations that focus on environmental awareness and issues.
 
-<br> <strong> **III. Initial Wireframe** </strong> <br>
+<br> <strong> **III. Our Project** </strong> <br>
 
-https://www.canva.com/design/DAFMrAcZgD0/UBO28lh___6LxVgO5VMsDQ/edit?utm_content=DAFMrAcZgD0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Wireframe: https://www.canva.com/design/DAFMWzwljXU/IN0DGc6iCkIc9ytsqmj_cQ/edit?utm_content=DAFMWzwljXU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+HTML Link: https://replit.com/@CHRISTIAN-BRAND/CLIMATRONLithiumGarcia-Octaviano#index.html
