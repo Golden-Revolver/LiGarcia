@@ -13,7 +13,7 @@ Therefore, it is for these reasons that we have decided to choose climate change
 
 <br> <strong> **II. Website Contents** </strong> <br>
 
-Our website will comprised of the following:
+Our website will comprised of the following: <br> <br>
 
 1. Homepage - The homepage is the landing page of the website and will give an overview of the website and links to the other contents of the website.
 
