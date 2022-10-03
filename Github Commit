@@ -8,3 +8,255 @@
   	<meta name="keywords" content="HTML, CSS, JavaScript">
   	<meta name="revised" content="01-Oct-2022">
     <link rel="stylesheet" href="style.css" type="text/css">
+  
+  <style>
+    body {font-family: 'Open Sans', sans-serif;}
+
+    div#background {
+      position: relative;
+      bottom: 10px;
+      right: 8px;
+      background-image:
+        linear-gradient(to right, #5E99FF, #FF775F);
+      height: 545px;
+      width: 1535px;
+    }
+
+    div#heading {
+      position: relative;
+      right: 8px;
+      bottom: 10px;
+      background-color: #CAD6FF;
+      width: 1471px;
+      padding: 32px;
+    }
+    
+    div#heading ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    div#heading li {
+      position: relative;
+      left: 35px;
+      bottom: 40px;
+      float: left;
+      display: block;
+      padding: 30px;
+    }
+
+    div#heading img {
+      width: 50px;
+      length: 50px;
+    }
+
+    div#heading li img {
+      position: absolute;
+      margin-right: 15px;
+      right: 5px;
+      top: 16px;
+    }
+
+    div#search-bar {
+      position: absolute;
+      left: 875px;
+      bottom: 10px;
+      background-color: white;
+      width: 450px;
+      padding: 10px;
+      color: grey;
+    }
+
+    div#search-bar img {
+      position: absolute;
+      left: 400px;
+      bottom: -1px;
+    }
+
+    #homepage {
+      position: absolute;
+      left: 1410px;
+      bottom: 7px;
+    }
+
+    div#our-mission {
+      position: absolute;
+      left: 25px;
+      top: 5px;
+      background-color: #CAD6FF;
+      width: 500px;
+      height: 294px;
+      padding: 60px;
+      margin: 60px;
+    }
+
+    div#our-mission ul {
+      position: relative;
+      bottom: 5px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    div#our-mission img {
+      position: relative;
+      bottom: 10px;
+    }
+
+    div#our-mission h1 {
+      position: relative;
+      bottom: 5px;
+    }
+
+    #webpages {
+      position: absolute;
+      left: 780px;
+      top: 0px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #webpages div {
+      position: relative;
+      top: 30px;
+      width: 600px;
+      padding: 17px;
+      margin: 34px;
+      color: white;
+      font-size: 32px;
+    }
+
+    #webpages img {
+      position: absolute;
+      left: 558px;
+      top: 10px;
+      width: 60px;
+      length: 60px;
+      aspect-ratio: 1/1;
+    }
+    
+    div#fossil-fuels {background-color: #281E1A;}
+    div#deforestation {background-color: #E7501C;}
+    div#waste {background-color: #70C573;}
+    div#solutions {background-color: #38B6FF;}
+
+    div#footer {
+      position: relative;
+      right: 20px;
+      bottom: 10px;
+      background-color: #FF5757;
+      border-top: 2px dashed black;
+      width: 1547px;
+      height: 100px;
+      color: white;
+    }
+
+    div#footer h1 {
+      position: absolute;
+      left: 77px;
+      top: 8px;
+    }
+
+    div#footer hr {
+      position: absolute;
+      bottom: -8px;
+      right: 1210px;
+      height: 98px;
+    }
+
+    div#footer ul {
+      position: absolute;
+      left: 380px;
+      bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="heading">
+    <ul>
+      <li> 
+        <img src="images/climatron-icon.png" alt="picture of
+             our glorious icon" title="uwu">
+      </li>
+      <li> <strong> CLIMATRON </strong> </li>
+      <li>Fossil Fuels</li>
+      <li>Deforestation</li>
+      <li>Waste</li>
+      <li>Solutions</li>
+    </ul>
+    
+    <div id="search-bar">
+      Type here...
+      <img src="images/magnifying-glass.png" alt="picture of a
+        magnifying glass" title="OwO">
+    </div>
+    
+    <img id="homepage" src="images/homepage-icon.png"
+      alt="homepage shortcut" title=":3">
+  </div>
+
+  <div id="background">
+    <div id="our-mission">
+      <ul>
+        <li> 
+          <img src="images/leaf-icon.png" alt="placeholder
+            image" title=">:D" width="150" length="150"> 
+        </li>
+        <li> <h1> Our Mission </h1> </li>
+        <li> 
+          <strong> Climatron </strong> is our way of
+          informing the masses on the effects of climate change.
+          For decades, greenhouse gases have caused the Earth to
+          warm by over 1 degrees, resulting in many negative
+          consequences worldwide.
+        </li>
+      </ul>
+    </div>
+  
+    <ul id="webpages">
+      <li>
+        <div id="fossil-fuels">
+          <strong> FOSSIL FUELS </strong>
+          <img src="images/fossil-fuels-icon.png" alt="image of
+            fossil fuels" title="woah">
+        </div>
+      </li>
+      <li>
+        <div id="deforestation">
+          <strong> DEFORESTATION </strong>
+          <img src="images/deforestation-icon.png" alt="image of
+            deforestation" title="a">
+        </div>
+      </li>
+      <li>
+        <div id="waste">
+          <strong> WASTE </strong>
+          <img src="images/waste-icon.png" alt="image of waste"
+            title="hidden">
+        </div>
+      </li>
+      <li>
+        <div id="solutions">
+          <strong> SOLUTIONS </strong>
+          <img src="images/solutions-icon.png" alt="image of
+            windmills" title="message">
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <div id="footer">
+    <h1> <strong> REFERENCES </strong> </h1>
+    <hr>
+    <ul>
+      <li>canva.com</li>
+      <li>Put whatever references u want here</li>
+    </ul>
+  </div>
+</body>
+
+</html>
