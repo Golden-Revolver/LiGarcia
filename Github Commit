@@ -105,7 +105,7 @@
   </body>
 </html>
 
-<!-- webpage no.2 (deforestation), also what we really did for the week aka major commit, i just fixed some codes for the index.html -->
+<!-- webpage no.2 (deforestation), also what we really did for the week aka major commit (github commit 4) -->
 
 <!DOCTYPE html>
 <html>
@@ -220,6 +220,995 @@
       alt="homepage shortcut" title=":3">
   </div>
   <div id="background">
-  <h1 style-"text-align: center"></h1>
+  <h1>
+    <style> text-align: center </style>
+  </h1>
   </div>
 </body>
+
+<!--NAVIGATION BAR-->
+  
+<div class="navigation-bar">
+      <div class="navigation-box">
+        <img src="../images/compass-icon.png" alt="a compass :D"
+          title="Greetings fellow hoverer of images.">
+          <h1>EXPLORE</h1>
+          <div class="navigation-menu">
+            <a href="#chapter-one">
+              <div>
+                <span class="circle">1</span>
+                <p>What is Deforestation?</p>
+                <hr>
+              </div>
+            </a>
+            <a href="#chapter-two">
+              <div>
+                <span class="circle">2</span>
+                <p>Why am I being cut?</p>
+                <hr>
+              </div>
+            </a>
+            <a href="#chapter-three">
+              <div>
+                <span class="circle">3</span>
+                <p>Where are the Greens?</p>
+                <hr>
+              </div>
+            <a href="#chapter-four">
+              <div>
+                <span class="circle">4</span>
+                <p>Some Final Thoughts</p>
+                <hr>
+              </div>
+            </a>
+          </div>
+        </div>
+        <img src="../images/navigation-icon.png" alt="hover on
+          me!" title="^-^">
+      </div>
+    
+    <div class="content">
+      
+<!-- Fossil Fuels Banner -->
+      <div class="banner">
+        <div class="deforestation">
+          <h1>DEFORESTATION</h1>
+        </div>
+        <div class="deforestation-menu">
+          <a href="#chapter-one">
+            <div class="section-one">
+              <h1>What is Deforestation?</h1>
+              <p>
+                First of all, deforestation is bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla...
+              </p>
+            </div>
+          </a>
+          <a href="#chapter-two">
+            <div class="section-two">
+              <h1>Why am I being cut?</h1>
+              <p>
+                bla bla blabla bla bla bla bla bla bla bla bla bla bla bla...
+              </p>
+            </div>
+          </a>
+          <a href="#chapter-three">
+            <div class="section-three">
+              <h1>Where are the Greens?</h1>
+              <p>
+                bla bla bla bla...
+              </p>
+            </div>
+          </a>
+          <a href="#chapter-four">
+            <div class="section-four">
+              <h1>Some Final Thoughts</h1>
+              <p>
+                In conclusion, deforestation has
+                caused great harm to the environment bla bla bla...
+              </p>
+            </div>
+          </a>
+        </div>
+        <img id="arrow1" src="../images/single-arrow-icon.png"
+          alt="More content below..." title="Scroll down!">
+        <img id="arrow2" src="../images/single-arrow-icon.png"
+          alt="More content below..." title="Scroll down!">
+      </div>
+      
+      <!-- Chapter One: What Is Deforestation? -->
+      <div id="chapter-one">
+        <h1>What Are Fossil Fuels?</h1>
+        <hr>
+        <p>
+          According to
+        </p>
+      </div>
+
+      <!-- Chapter Two: Why am I being cut? -->
+      <div id="chapter-two">
+        <h1>Why am I being cut?</h1>
+        <hr>
+      </div>
+
+      <!-- Chapter Three: Where are the Greens? -->
+      <div id="chapter-three">
+        <h1>Where are the Greens?</h1>
+        <hr>
+      </div>
+
+      <!-- Chapter Four: Some Final Thoughts -->
+      <div id="chapter-four">
+        <h1>Some Final Thoughts</h1>
+        <hr>
+      </div>
+      
+      <p class="test1">Test</p>
+    </div>
+  </body>
+</html>
+
+<!--CSS-->
+
+/* Welcome to the external CSS file!
+   We hope you enjoy your stay. */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* GENERAL */
+html {overflow-x: auto;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ANIMATIONS */
+@keyframes show-text {
+  from {transform: translateY(-40px)};
+  to {transform: translateY(0px)};
+}
+
+@keyframes hide-text {
+  from {transform: translateY(0px);}
+  to {transform: translateY(-40px);}
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* ---------- HOMEPAGE ---------- */
+.heading a, .webpages a,
+.navigation-menu a 
+{
+  color: black;
+  text-decoration: none;
+}
+
+.heading {
+  position: fixed;
+  left: -8px;
+  z-index: 20;
+  top: 0px;
+  width: 1471px;
+  height: 0px;
+  padding: 32px;
+}
+
+#i-heading {background-color: #CAD6FF;}
+#f-heading {background-color: #FDCE63;}
+  
+.heading ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.heading li {
+  position: relative;
+  left: 35px;
+  bottom: 40px;
+  float: left;
+  display: block;
+  padding: 30px;
+}
+
+.heading li a:hover {
+  text-decoration: underline;
+}
+
+.heading img {
+  width: 50px;
+  height: 50px;
+}
+
+.heading li img {
+  position: absolute;
+  margin-right: 15px;
+  right: 5px;
+  top: 16px;
+}
+
+#search-bar {
+  position: relative;
+  width: 500px;
+  padding: 10px;
+  bottom: 9px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#magnifying-glass {
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+  height: 45px;
+}
+
+#homepage {
+  position: absolute;
+  left: 1430px;
+  bottom: 7px;
+}
+
+#homepage:hover {
+  filter: invert(100%);
+}
+
+.background {
+  position: fixed;
+  top: 64px;
+  background-image:
+    linear-gradient(to right, #5E99FF, #FF775F);
+  width: 1527px;
+}
+
+#i-background {
+  background-image:
+    linear-gradient(to right, #5E99FF, #FF775F);
+  height: 545px;
+}
+
+#f-background {
+  background-image:
+    url("../images/f-background.png");
+  height: 649px;
+}
+
+#our-mission {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  background-color: #CAD6FF;
+  width: 500px;
+  height: 294px;
+  padding: 60px;
+  margin: 60px;
+}
+
+#our-mission ul {
+  position: relative;
+  bottom: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#our-mission img {
+  position: relative;
+  bottom: 10px;
+}
+
+#our-mission h1 {
+  position: relative;
+  bottom: 5px;
+}
+
+.webpages {
+  position: absolute;
+  left: 780px;
+  top: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.webpages div {
+  position: relative;
+  top: 30px;
+  width: 600px;
+  padding: 17px;
+  margin: 34px;
+  color: white;
+  font-size: 32px;
+  transition: width 200ms, filter 200ms;
+}
+
+.webpages img {
+  position: absolute;
+  left: 558px;
+  top: 10px;
+  width: 60px;
+  length: 60px;
+  aspect-ratio: 1/1;
+}
+
+.webpages .arrow {
+  opacity: 0;
+  width: 0px;
+  position: absolute;
+  left: 630px;
+  transition: opacity 200ms;
+}
+
+.webpages div:hover {
+  width: 650px;
+  filter: brightness(125%);
+  transition: width 200ms, filter 200ms;
+}
+
+.webpages div:hover .arrow {
+  opacity: 1;
+  width: 60px;
+  transition: opacity 200ms;
+  transition-delay: 100ms;
+}
+
+.webpages #fossil-fuels {background-color: #281E1A;}
+.webpages #deforestation {background-color: #E7501C;}
+.webpages #waste {background-color: #70C573;}
+.webpages #solutions {background-color: #38B6FF;}
+
+.footer {
+  position: relative;
+  top: 545px;
+  background-color: #FF5757;
+  border-top: 2px dashed black;
+  width: 1527px;
+  height: 102px;
+  color: white;
+}
+
+.footer h1 {
+  position: absolute;
+  left: 60px;
+  top: 8px;
+}
+
+.footer hr {
+  position: absolute;
+  bottom: -8px;
+  right: 1210px;
+  height: 98px;
+}
+
+.footer ul {
+  position: absolute;
+  left: 380px;
+  bottom: 10px;
+}
+
+/* Placeholder class */
+.test1 {
+  position: relative;
+  top: 2000px;
+}
+
+/* ---------- FOSSIL FUELS ---------- */
+.navigation-bar {
+  position: fixed;
+  left: -200px;
+  width: 150px;
+  height: 713px;
+  z-index: 20;
+  margin-left: 0px;
+  transition: margin 500ms;
+}
+
+.navigation-bar img {
+  position: relative;
+  bottom: 484px;
+  left: 200px;
+  width: 48px;
+  height: 256px;
+}
+
+.navigation-bar:hover {
+  margin-left: 200px;
+  transition: margin 500ms;
+}
+
+.navigation-box {
+  width: 200px;
+  height: 713px;
+  background-color: white;
+}
+
+.navigation-box > img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.navigation-box h1 {
+  position: absolute;
+  font-size: 16px;
+  top: 160px;
+  left: 64px;
+}
+
+.navigation-menu {
+  position: absolute;
+  width: 190px;
+  height: 463px;
+  top: 210px;
+}
+
+.navigation-menu p {
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  width: 150px;
+  left: 55px;
+}
+
+.circle {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  width: 36px;
+  height: 36px;
+  background-color: blue;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation-menu div {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 75px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navigation-menu hr {
+  position: absolute;
+  width: 180px;
+  top: 66px;
+  left: 10px;
+  color: white;
+}
+
+.navigation-menu div:hover {
+  background-color: yellow;
+}
+
+.content {
+  position: absolute;
+  top: 64px;
+  width: 1327px;
+  height: 1545px;
+  margin: 50px 100px 50px 100px;
+}
+
+.content > div {
+  height: 649px;
+  padding-top: 64px;
+}
+
+.banner {
+  height: 599px;
+}
+
+.banner img {
+  width: 170px;
+  height: 160px;
+}
+
+.banner > img {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 624px;
+  animation: scroll-down 2s infinite;
+}
+
+#arrow1 {
+  top: 480px;
+  animation-delay: 250ms;
+}
+
+#arrow2 {
+  top: 520px;
+}
+
+.fossil-fuels {
+  display: flex;
+  position: absolute;
+  left: 589px;
+  top: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 1px solid grey;
+  outline-offset: -10px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.fossil-fuels h1 {
+  font-size: 1.5em;
+}
+
+.fossil-fuels-menu {
+  position: absolute;
+  left: 164px;
+  width: 1000px;
+  height: 400px;
+  outline: 4px solid black;
+}
+
+.section-one {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  background-color: #263238;
+  outline: 2px solid black;
+}
+
+.section-one img {
+  position: absolute;
+  top: 10px;
+  width: 125px;
+  height: 65px;
+}
+
+.section-two img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 70px;
+  height: 65px;
+}
+
+.section-three img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 65px;
+}
+
+.section-four img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 65px;
+}
+
+.section-one h1 {
+  position: absolute;
+  left: 125px;
+  top: 0px;
+  color: white;
+}
+
+.section-two h1 {
+  position: absolute;
+  right: 100px;
+  color: white;
+}
+
+.section-three h1 {
+  position: absolute;
+  left: 100px;
+  color: white;
+}
+
+.section-four h1 {
+  position: absolute;
+  right: 80px;
+  color: white;
+}
+
+.fossil-fuels-menu p {
+  opacity: 0;
+  position: absolute;
+  top: 75px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: opacity 100ms;
+  animation-name: hide-text;
+  animation-duration: 200ms;
+}
+
+.section-two p, .section-four p {
+  text-align: right;
+}
+
+.section-one:hover > p, .section-two:hover > p,
+.section-three:hover > p, .section-four:hover > p
+{
+  opacity: 1;
+  transition: opacity 100ms;
+  animation-name: show-text;
+  animation-duration: 200ms;
+}
+
+.section-one:hover, .section-two:hover,
+.section-three:hover, .section-four:hover 
+{filter: brightness(125%);}
+
+.section-three:hover {
+  background-color: #FF4444;
+}
+
+.section-two {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  height: 200px;
+  background-color: #FF914D;
+  outline: 2px solid black;
+}
+
+.section-three {
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 200px;
+  background-color: #FC0B00;
+  outline: 2px solid black;
+}
+
+.section-four {
+  position: absolute;
+  right: 0px;
+  top: 200px;
+  width: 500px;
+  height: 200px;
+  background-color: #55AA00;
+  outline: 2px solid black;
+}
+
+#chapter-two h1 {
+  text-align: right;
+}
+
+#chapter-four h1 {
+  text-align: right;
+}
+
+/* ---------- DEFORESTATION ---------- */
+
+.navigation-bar {
+  position: fixed;
+  left: -200px;
+  width: 150px;
+  height: 713px;
+  z-index: 20;
+  margin-left: 0px;
+  transition: margin 500ms;
+}
+
+.navigation-bar img {
+  position: relative;
+  bottom: 484px;
+  left: 200px;
+  width: 48px;
+  height: 256px;
+}
+
+.navigation-bar:hover {
+  margin-left: 200px;
+  transition: margin 500ms;
+}
+
+.navigation-box {
+  width: 200px;
+  height: 713px;
+  background-color: white;
+}
+
+.navigation-box > img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.navigation-box h1 {
+  position: absolute;
+  font-size: 16px;
+  top: 160px;
+  left: 64px;
+}
+
+.navigation-menu {
+  position: absolute;
+  width: 190px;
+  height: 463px;
+  top: 210px;
+}
+
+.navigation-menu p {
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  width: 150px;
+  left: 55px;
+}
+
+.circle {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  width: 36px;
+  height: 36px;
+  background-color: blue;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation-menu div {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 75px;
+
+ justify-content: center;
+  flex-direction: column;
+}
+
+.navigation-menu hr {
+  position: absolute;
+  width: 180px;
+  top: 66px;
+  left: 10px;
+  color: white;
+}
+
+.navigation-menu div:hover {
+  background-color: yellow;
+}
+
+.content {
+  position: absolute;
+  top: 64px;
+  width: 1327px;
+  height: 1545px;
+  margin: 50px 100px 50px 100px;
+}
+
+.content > div {
+  height: 649px;
+  padding-top: 64px;
+}
+
+.banner {
+  height: 599px;
+}
+
+.banner img {
+  width: 170px;
+  height: 160px;
+}
+
+.banner > img {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 624px;
+  animation: scroll-down 2s infinite;
+}
+
+#arrow1 {
+  top: 480px;
+  animation-delay: 250ms;
+}
+
+#arrow2 {
+  top: 520px;
+}
+
+.deforestation {
+  display: flex;
+  position: absolute;
+  left: 589px;
+  top: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 1px solid grey;
+  outline-offset: -10px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.deforestation h1 {
+  font-size: 1.5em;
+}
+
+.deforestation-menu {
+  position: absolute;
+  left: 164px;
+  width: 1000px;
+  height: 400px;
+  outline: 4px solid black;
+}
+
+.section-one {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  background-color: #263238;
+  outline: 2px solid black;
+}
+
+.section-one img {
+  position: absolute;
+  top: 10px;
+  width: 125px;
+  height: 65px;
+}
+
+.section-two img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 70px;
+  height: 65px;
+}
+
+.section-three img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 65px;
+}
+
+.section-four img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 65px;
+}
+
+.section-one h1 {
+  position: absolute;
+  left: 125px;
+  top: 0px;
+  color: white;
+}
+
+.section-two h1 {
+  position: absolute;
+  right: 100px;
+  color: white;
+}
+
+.section-three h1 {
+  position: absolute;
+  left: 100px;
+  color: white;
+}
+
+.section-four h1 {
+  position: absolute;
+  right: 80px;
+  color: white;
+}
+
+.deforestation-menu p {
+  opacity: 0;
+  position: absolute;
+  top: 75px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: opacity 100ms;
+  animation-name: hide-text;
+  animation-duration: 200ms;
+}
+
+.section-two p, .section-four p {
+  text-align: right;
+}
+
+.section-one:hover > p, .section-two:hover > p,
+.section-three:hover > p, .section-four:hover > p
+{
+  opacity: 1;
+  transition: opacity 100ms;
+  animation-name: show-text;
+  animation-duration: 200ms;
+}
+
+.section-one:hover, .section-two:hover,
+.section-three:hover, .section-four:hover 
+{filter: brightness(125%);}
+
+.section-three:hover {
+  background-color: #FF4444;
+}
+
+.section-two {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  height: 200px;
+  background-color: #FF914D;
+  outline: 2px solid black;
+}
+
+.section-three {
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 200px;
+  background-color: #FC0B00;
+  outline: 2px solid black;
+}
+
+.section-four {
+  position: absolute;
+  right: 0px;
+  top: 200px;
+  width: 500px;
+  height: 200px;
+  background-color: #55AA00;
+  outline: 2px solid black;
+}
+
+#chapter-two h1 {
+  text-align: right;
+}
+
+#chapter-four h1 {
+  text-align: right;
+}
+
+NOTES for this week's commit : Regarding my attempt with the navigation bar and the banner, it did turned out the way I want it be. Instead of my desired output, the content like headers and stuff just flowed vertically and not put into their right places, it looks just like a long list (outline) or somewhat similar when you enumerate things. 
