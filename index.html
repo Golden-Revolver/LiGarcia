@@ -1,9 +1,8 @@
-<!-- STATUS: zzz... -->
+<!-- CURRENTLY WORKING -->
 <!-- TO-DO LIST:
-Update navigation features (Mostly done!)
-Make CSS external (Mostly done!)
-Reformat code (Mostly done!)
-Make position of header fixed (Mostly done!) -->
+Phase One: Fossil Fuels Banner (Mostly done!)
+Phase Two: All 4 Chapters (In progress...)
+Phase Three: Footer & References -->
 
 <!DOCTYPE html>
 <html>
@@ -15,42 +14,52 @@ Make position of header fixed (Mostly done!) -->
   	<meta name="keywords" content="HTML, CSS, JavaScript">
   	<meta name="revised" content="01-Oct-2022">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/x-icon"
+      href="/images/favicon-icon.ico">
   </head>
 
   <body>
-    <div id="heading" class="default-text">
+    <div class="heading" id="i-heading">
       <ul>
         <li> 
           <img src="images/climatron-icon.png" alt="picture of
                our glorious icon" title="uwu">
         </li>
-        <li> <strong> CLIMATRON </strong> </li>
+        <li> 
+          <strong> CLIMATRON </strong> 
+        </li>
         <li>
           <a href="webpages/fossil-fuels.html">Fossil Fuels</a>           </li>
         <li>
           <a href="webpages/deforestation.html">Deforestation</a>         </li>
-        <li><a href="webpages/waste.html">Waste</a></li>
-        <li><a href="webpages/solutions.html">Solutions</a></li>
+        <li>
+          <a href="webpages/waste.html">Waste</a>
+        </li>
+        <li>
+          <a href="webpages/solutions.html">Solutions</a>
+        </li>
+        <li>
+          <input id="search-bar" placeholder="Type here...">
+        </li>
       </ul>
-      <div id="search-bar">
-        Type here...
-        <img src="images/magnifying-glass.png" alt="picture of a
-          magnifying glass" title="OwO">
-      </div>
+      <img id="magnifying-glass" src="images/search-icon.png"
+        alt="click mto search" title="OwO">
       <a href="../index.html">
-      <img id="homepage" src="images/homepage-icon.png"
-        alt="homepage shortcut" title=":3">
+        <img id="homepage" src="images/homepage-icon.png"
+          alt="homepage shortcut" title=":3">
       </a>
     </div>
   
-    <div id="background">
+    <div class="background" id="i-background">
       <div id="our-mission">
         <ul>
           <li> 
             <img src="images/leaf-icon.png" alt="placeholder
               image" title=">:D" width="150" length="150"> 
           </li>
-          <li> <h1> Our Mission </h1> </li>
+          <li> 
+            <h1> Our Mission </h1> 
+          </li>
           <li> 
             <strong> Climatron </strong> is our way of
             informing the masses on the effects of climate change.
@@ -61,44 +70,58 @@ Make position of header fixed (Mostly done!) -->
         </ul>
       </div>
     
-      <ul id="webpages" class="default-text">
+      <ul class="webpages">
         <li>
           <a href="webpages/fossil-fuels.html">
-          <div id="fossil-fuels">
-            <strong> FOSSIL FUELS </strong>
-            <img src="images/fossil-fuels-icon.png" alt="image of
-              fossil fuels" title="woah">
-          </div>
+            <div id="fossil-fuels">
+              <strong> FOSSIL FUELS </strong>
+              <img src="images/fossil-fuels-icon.png" alt="image
+                of fossil fuels" title="woah">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
           </a>
         </li>
         <li>
           <a href="webpages/deforestation.html">
-          <div id="deforestation">
-            <strong> DEFORESTATION </strong>
-            <img src="images/deforestation-icon.png" alt="image of
-              deforestation" title="a">
-          </div>
+            <div id="deforestation">
+              <strong> DEFORESTATION </strong>
+              <img src="images/deforestation-icon.png" alt="image
+                of deforestation" title="a">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
           </a>
         </li>
         <li>
           <a href="webpages/waste.html">
-          <div id="waste">
-            <strong> WASTE </strong>
-            <img src="images/waste-icon.png" alt="image of waste"
-              title="hidden">
-          </div>
+            <div id="waste">
+              <strong> WASTE </strong>
+              <img src="images/waste-icon.png" alt="image of
+                waste" title="hidden">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
+          </a>
         </li>
         <li>
           <a href="webpages/solutions.html">
-          <div id="solutions">
-            <strong> SOLUTIONS </strong>
-            <img src="images/solutions-icon.png" alt="image of
-              windmills" title="message">
-          </div>
+            <div id="solutions">
+              <strong> SOLUTIONS </strong>
+              <img src="images/solutions-icon.png" alt="image of
+                windmills" title="message">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
+          </a>
         </li>
       </ul>
     
-      <div id="footer">
+      <div class="footer">
         <h1> <strong> REFERENCES </strong> </h1>
         <hr>
         <ul>
