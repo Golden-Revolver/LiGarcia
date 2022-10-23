@@ -1,22 +1,9 @@
-/* Welcome to the external CSS file!
-   We hope you enjoy your stay. */
-
-/* FONTS */
+/* ---------- FONTS ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-/* GENERAL */
-html {overflow-x: auto;}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* ANIMATIONS */
+/* ---------- ANIMATIONS ---------- */
 @keyframes show-text {
   from {transform: translateY(-40px)};
   to {transform: translateY(0px)};
@@ -46,7 +33,16 @@ html, body {
   }
 }
 
-/* ---------- HOMEPAGE ---------- */
+/* ---------- GENERAL ---------- */
+html {overflow-x: auto;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .heading a, .webpages a,
 .navigation-menu a 
 {
@@ -66,8 +62,9 @@ html, body {
 
 #i-heading {background-color: #CAD6FF;}
 #f-heading {background-color: #FDCE63;}
+#d-heading {background-color: green;}
   
-.heading ul {
+.heading ul, .organizations ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -82,7 +79,7 @@ html, body {
   padding: 30px;
 }
 
-.heading li a:hover {
+.heading li a:hover, #current-page {
   text-decoration: underline;
 }
 
@@ -134,7 +131,7 @@ html, body {
 #i-background {
   background-image:
     linear-gradient(to right, #5E99FF, #FF775F);
-  height: 545px;
+  height: 649px;
 }
 
 #f-background {
@@ -143,10 +140,50 @@ html, body {
   height: 649px;
 }
 
+#d-background  {
+  background-image:
+    url("../images/f-background.png");
+    height: 649px;
+
+}
+
+#c-background {
+  background-image:
+    linear-gradient(to right, lavender, cyan);
+  height: 713px;
+  top: 0px;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  background-image:
+    linear-gradient(to right, #00C4CC, #7C2AE8);
+  width: 1527px;
+  height: 64px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer p {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  border-top: 2px dashed white;
+  border-right: 1px solid white;
+  margin: 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ---------- HOMEPAGE ---------- */
 #our-mission {
   position: absolute;
   left: 20px;
-  top: 5px;
+  top: 25px;
   background-color: #CAD6FF;
   width: 500px;
   height: 294px;
@@ -176,7 +213,7 @@ html, body {
 .webpages {
   position: absolute;
   left: 780px;
-  top: 0px;
+  top: 20px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -227,41 +264,6 @@ html, body {
 .webpages #deforestation {background-color: #E7501C;}
 .webpages #waste {background-color: #70C573;}
 .webpages #solutions {background-color: #38B6FF;}
-
-.footer {
-  position: relative;
-  top: 545px;
-  background-color: #FF5757;
-  border-top: 2px dashed black;
-  width: 1527px;
-  height: 102px;
-  color: white;
-}
-
-.footer h1 {
-  position: absolute;
-  left: 60px;
-  top: 8px;
-}
-
-.footer hr {
-  position: absolute;
-  bottom: -8px;
-  right: 1210px;
-  height: 98px;
-}
-
-.footer ul {
-  position: absolute;
-  left: 380px;
-  bottom: 10px;
-}
-
-/* Placeholder class */
-.test1 {
-  position: relative;
-  top: 2000px;
-}
 
 /* ---------- FOSSIL FUELS ---------- */
 .navigation-bar {
@@ -372,6 +374,10 @@ html, body {
   padding-top: 64px;
 }
 
+.content > div > hr {
+  width: 1327px;
+}
+
 .banner {
   height: 599px;
 }
@@ -389,13 +395,13 @@ html, body {
   animation: scroll-down 2s infinite;
 }
 
-#arrow1 {
-  top: 480px;
-  animation-delay: 250ms;
+#top-arrow {
+  top: 520px;
 }
 
-#arrow2 {
-  top: 520px;
+#bottom-arrow {
+  top: 480px;
+  animation-delay: 250ms;
 }
 
 .fossil-fuels {
@@ -427,67 +433,21 @@ html, body {
   outline: 4px solid black;
 }
 
-.section-one {
+.fossil-fuels-menu div {
   position: absolute;
   width: 500px;
   height: 200px;
-  background-color: #263238;
   outline: 2px solid black;
 }
 
-.section-one img {
+.fossil-fuels-menu img {
   position: absolute;
   top: 10px;
-  width: 125px;
   height: 65px;
 }
 
-.section-two img {
+.fossil-fuels-menu h1 {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-three img {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-four img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 60px;
-  height: 65px;
-}
-
-.section-one h1 {
-  position: absolute;
-  left: 125px;
-  top: 0px;
-  color: white;
-}
-
-.section-two h1 {
-  position: absolute;
-  right: 100px;
-  color: white;
-}
-
-.section-three h1 {
-  position: absolute;
-  left: 100px;
-  color: white;
-}
-
-.section-four h1 {
-  position: absolute;
-  right: 80px;
   color: white;
 }
 
@@ -501,6 +461,61 @@ html, body {
   transition: opacity 100ms;
   animation-name: hide-text;
   animation-duration: 200ms;
+}
+
+.section-one {
+  background-color: #263238;
+}
+
+.section-one img {
+  width: 125px;
+}
+
+.section-one h1 {
+  left: 125px;
+}
+
+.section-two {
+  right: 0px;
+  background-color: #FF914D;
+}
+
+.section-two img {
+  right: 10px;
+  width: 70px;
+}
+
+.section-two h1 {
+  right: 100px;
+}
+
+.section-three {
+  top: 200px;
+  background-color: #FC0B00;
+}
+
+.section-three img {
+  left: 10px;
+  width: 70px;
+}
+
+.section-three h1 {
+  left: 100px;
+}
+
+.section-four {
+  right: 0px;
+  top: 200px;
+  background-color: #55AA00;
+}
+
+.section-four img {
+  right: 10px;
+  width: 60px;
+}
+
+.section-four h1 {
+  right: 80px;
 }
 
 .section-two p, .section-four p {
@@ -524,188 +539,452 @@ html, body {
   background-color: #FF4444;
 }
 
-.section-two {
+#chapter-one {
   position: absolute;
-  right: 0px;
-  width: 500px;
-  height: 200px;
-  background-color: #FF914D;
-  outline: 2px solid black;
+  top: 713px;
 }
 
-.section-three {
-  position: absolute;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #FC0B00;
-  outline: 2px solid black;
-}
-
-.section-four {
-  position: absolute;
-  right: 0px;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #55AA00;
-  outline: 2px solid black;
-}
-
-#chapter-two h1 {
-  text-align: right;
-}
-
-#chapter-four h1 {
-  text-align: right;
-}
-
-/* ---------- DEFORESTATION ---------- */
-
-.navigation-bar {
-  position: fixed;
-  left: -200px;
-  width: 150px;
-  height: 713px;
-  z-index: 20;
-  margin-left: 0px;
-  transition: margin 500ms;
-}
-
-.navigation-bar img {
+.fuel-types {
   position: relative;
-  bottom: 484px;
-  left: 200px;
-  width: 48px;
-  height: 256px;
+  top: 40px;
 }
 
-.navigation-bar:hover {
-  margin-left: 200px;
-  transition: margin 500ms;
-}
-
-.navigation-box {
-  width: 200px;
-  height: 713px;
-  background-color: white;
-}
-
-.navigation-box > img {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 100px;
-  height: 100px;
-
-}
-
-.navigation-box h1 {
-  position: absolute;
-  font-size: 16px;
-  top: 160px;
-  left: 64px;
-}
-
-.navigation-menu {
-  position: absolute;
-  width: 190px;
-  height: 463px;
-  top: 210px;
-}
-
-.navigation-menu p {
-  position: absolute;
-  font-size: 12px;
-  text-align: left;
-  width: 150px;
-  left: 55px;
-}
-
-.circle {
+.fuel-types div {
   display: flex;
-  position: absolute;
-  left: 10px;
-  width: 36px;
-  height: 36px;
-  background-color: blue;
-  border-radius: 50%;
+  outline: 1px solid white;
+  outline-offset: -5px;
+  border-radius: 10%;
+  width: 400px;
+  height: 400px;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  font-weight: bold;
+}
+
+.fuel-types div > h1 {
+  color: white;
+  z-index: 10;
+}
+
+.fuel-types div > p {
+  position: absolute;
+  left: 20px;
+  top: 75px;
+  width: 360px;
+  height: 360px;
+  text-align: justify;
   color: white;
 }
 
-.navigation-menu div {
-  display: flex;
-  position: relative;
-  width: 200px;
-  height: 75px;
+.coal {
+  position: absolute;
+  background-color: #4D4D4D;
+  border-radius: 10%;
+  width: 400px;
+  height: 200px;
+}
 
- justify-content: center;
+.coal h1 {
+  position: absolute;
+  top: 5px;
+  left: 160px;
+}
+
+.coal img {
+  position: absolute;
+  top: 15px;
+  left: 160px;
+  width: 75px;
+  height: 50px;
+}
+
+.oil {
+  position: absolute;
+  left: 463px;
+  background-color: black;
+  border-radius: 10%;
+  width: 400px;
+  height: 200px;
+}
+
+.oil h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+}
+
+.oil img {
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  width: 75px;
+  height: 50px;
+}
+
+.gas {
+  position: absolute;
+  left: 927px;
+  background-color: #EE8040;
+  border-radius: 10%;
+  width: 400px;
+  height: 200px;
+}
+
+.gas h1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+}
+
+.gas img {
+  position: absolute;
+  top: 15px;
+  left: 165px;
+  width: 75px;
+  height: 50px;
+}
+
+#chapter-two {
+  position: absolute;
+  top: 1426px;
+}
+
+#chapter-two h1, #chapter-two > p {
+  text-align: right;
+}
+
+.company-info {
+  position: absolute;
+  width: 500px;
+  height: 175px;
+  outline-offset: -10px;
+  border-radius: 5%;
+  color: white;
+}
+
+.company-info p {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  color: white;
+  text-align: justify;
+  width: 350px;
+  height: 100px;
+  font-size: 0.8em;
+}
+
+.company-info img {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+#petron {
+  top: 275px;
+  background-color: navy;
+  outline: 2px solid red;
+}
+
+#petron h1 {
+  position: absolute;
+  left: 190px;
+  top: -5px;
+}
+
+#shell {
+  top: 475px;
+  background-color: orange;
+  outline: 2px solid yellow;
+}
+
+#shell h1 {
+  position: absolute;
+  left: 205px;
+  top: -5px;
+}
+
+.graph-info {
+  position: absolute;
+  left: 500px;
+  top: 275px;
+  width: 850px;
+  height: 375px;
+}
+
+.graph-info img {
+  position: absolute;
+  left: 25px;
+  width: 400px;
+  height: 375px;
+}
+
+.graph-info p {
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  height: 375px;
+  text-align: justify;
+}
+
+#chapter-three {
+  position: absolute;
+  top: 2139px;
+}
+
+#chapter-three > img {
+  position: absolute;
+  left: 440px;
+  width: 450px;
+  height: 450px;
+}
+
+.adverse-effects {
+  display: flex;
+  width: 400px;
+  height: 175px;
+  border-radius: 5%;
+  outline-offset: -10px;
+  justify-content: center;
+  text-align: center;
   flex-direction: column;
 }
 
-.navigation-menu hr {
+.adverse-effects img {
   position: absolute;
-  width: 180px;
-  top: 66px;
-  left: 10px;
+  top: 10px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.adverse-effects h1 {
+  position: absolute;
+  left: 150px;
+}
+
+#storm {
+  position: absolute;
+  top: 275px;
+  background-color: #D9D9D9;
+  outline: 2px solid white;
+}
+
+#tsunami {
+  position: absolute;
+  top: 500px;
+  background-color: #38B6FF;
+  outline: 2px solid blue;
+}
+
+#famine {
+  position: absolute;
+  top: 275px;
+  right: 0px;
+  background-color: #55AA00;
+  outline: 2px solid yellow;
+}
+
+#famine img {
+  top: 25px;
+  width: 150px;
+  height: 125px;
+}
+
+#fire {
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  background-color: #F79326;
+  outline: 2px solid red;
+}
+
+#fire img {
+  top: 15px;
+  left: 35px;
+  width: 125px;
+  height: 150px;
+}
+
+.temperature {
+  position: absolute;
+  left: 564px;
+  top: 375px;
+  width: 200px;
+  height: 200px;
+}
+
+.temperature img {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 80px;
+  height: 120px;
+}
+
+.temperature h1 {
+  position: absolute;
+  top: 15px;
+  font-size: 4em;
+  margin: 0;
+}
+
+.temperature h2 {
+  position: absolute;
+  top: 65px;
+  font-size: 2em;
+}
+
+#chapter-four {
+  position: absolute;
+  top: 2852px;
+}
+
+#chapter-four h1, #chapter-four > p {
+  text-align: right;
+}
+
+.organizations {
+  position: absolute;
+  top: 360px;
+  width: 1327px;
+  height: 300px;
+  background-color: yellow;
+  outline: 2px solid white;
+  outline-offset: -10px;
+  border-radius: 5%;
+}
+
+.organizations img {
+  width: 140px;
+  height: 140px;
+  text-align: center;
+}
+
+.organizations h1 {
+  position: absolute;
+  left: 285px;
+  top: 5px;
+}
+
+.organizations div {
+  display: flex;
+  position: absolute;
+  top: 90px;
+  height: 190px;
+  justify-content: center;
+  flex-direction: row;
+  transition: transform 100ms;
+}
+
+.organizations div:hover {
+  filter: brightness(125%);
+  transform: scale(1.1, 1.1);
+  transition: transform 100ms;
+}
+
+.organizations p {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+#greenpeace {left: 100px;}
+#oceanic-global {left: 25%;}
+#climatron {left: 594px;}
+#united-nations {right: 25%;}
+#unilever {left: 1100px;}
+
+#greenpeace p {background-color: lime;}
+#oceanic-global p {background-color: white;}
+#climatron p {background-color: crimson;}
+#united-nations p {background-color: cyan;}
+#unilever p {background-color: blue;}
+
+#united-nations img {width: 160px;}
+
+.references {
+  position: absolute;
+  top: 3680px;
+  width: 1518px;
+  height: 600px;
+  background-color: black;
+  text-align: center;
+}
+
+.references > img {
+  position: absolute;
+  left: 0px;
+  top: -73px;
+  width: 1518px;
+}
+
+.references h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.references ul {
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  width: 800px;
+  color: white;
+  text-align: left;
+}
+
+.references-title {
+  display: flex;
+  position: absolute;
+  top: 45px;
+  width: 1518px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.references-title img {
+  width: 500px;
+  height: 50px;
+}
+
+#reverse-line {
+  transform: scaleX(-1);
+}
+
+.final-message {
+  position: absolute;
+  right: 150px;
+  top: 160px;
+}
+
+.final-message img {
+  width: 300px;
+  height: 200px;
+}
+
+.final-message h2 {
   color: white;
 }
 
-.navigation-menu div:hover {
-  background-color: yellow;
+.final-message h1 {
+  position: relative;
+  bottom: 20px;
 }
 
-.content {
-  position: absolute;
-  top: 64px;
-  width: 1327px;
-  height: 1545px;
-  margin: 50px 100px 50px 100px;
-}
-
-.content > div {
-  height: 649px;
-  padding-top: 64px;
-}
-
-.banner {
-  height: 599px;
-}
-
-.banner img {
-  width: 170px;
-  height: 160px;
-}
-
-.banner > img {
-  position: absolute;
-  width: 80px;
-  height: 40px;
-  left: 624px;
-  animation: scroll-down 2s infinite;
-}
-
-#arrow1 {
-  top: 480px;
-  animation-delay: 250ms;
-}
-
-#arrow2 {
-  top: 520px;
-}
-
-.deforestatio {
+/* ---------- DEFORESTATION ---------- */
+.deforestation {
   display: flex;
   position: absolute;
-  left: 589px;
+  left: 539px;
   top: 200px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 250px;
+  height: 80px;
   outline: 1px solid grey;
   outline-offset: -10px;
   background-color: white;
@@ -727,68 +1006,23 @@ html, body {
   outline: 4px solid black;
 }
 
-.section-one {
+.deforestation-menu div {
   position: absolute;
   width: 500px;
   height: 200px;
-  background-color: #263238;
   outline: 2px solid black;
 }
 
-.section-one img {
+.deforestation-menu img {
   position: absolute;
   top: 10px;
-  width: 125px;
   height: 65px;
 }
 
-.section-two img {
+.deforestation-menu h1 {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-three img {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-four img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 60px;
-  height: 65px;
-}
-
-.section-one h1 {
-  position: absolute;
-  left: 125px;
-  top: 0px;
   color: white;
-}
-
-.section-two h1 {
-  position: absolute;
-  right: 100px;
-  color: white;
-}
-
-.section-three h1 {
-  position: absolute;
-  left: 100px;
-  color: white;
-}
-
-.section-four h1 {
-  position: absolute;
-  right: 80px;
-  color: white;
+  font-size: 1.5em;
 }
 
 .deforestation-menu p {
@@ -803,59 +1037,62 @@ html, body {
   animation-duration: 200ms;
 }
 
-.section-two p, .section-four p {
-  text-align: right;
-}
-
-.section-one:hover > p, .section-two:hover > p,
-.section-three:hover > p, .section-four:hover > p
-{
-  opacity: 1;
-  transition: opacity 100ms;
-  animation-name: show-text;
-  animation-duration: 200ms;
-}
-
-.section-one:hover, .section-two:hover,
-.section-three:hover, .section-four:hover 
-{filter: brightness(125%);}
-
-.section-three:hover {
-  background-color: #FF4444;
-}
-
-.section-two {
+/* ---------- WASTE & SOLUTIONS ---------- */
+.construction-screen {
   position: absolute;
-  right: 0px;
-  width: 500px;
-  height: 200px;
-  background-color: #FF914D;
-  outline: 2px solid black;
+  left: 250px;
+  top: 90px;
+  width: 1100px;
+  height: 600px;
 }
 
-.section-three {
+.construction-screen img {
   position: absolute;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #FC0B00;
-  outline: 2px solid black;
+  width: 300px;
+  height: 300px;
 }
 
-.section-four {
+.construction-screen h1 {
   position: absolute;
-  right: 0px;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #55AA00;
-  outline: 2px solid black;
+  top: 25px;
+  left: 300px;
+  width: 800px;
+  text-align: center;
+  font-size: 4em;
 }
 
-#chapter-two h1 {
-  text-align: right;
+.construction-screen div {
+  display: flex;
+  position: absolute;
+  top: 350px;
+  border-radius: 5%;
+  outline-offset: -10px;
+  width: 450px;
+  height: 125px;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  transform: scale(1, 1);
+  transition: transform 100ms;
 }
 
-#chapter-four h1 {
-  text-align: right;
+.construction-screen div:hover {
+  filter: brightness(200%);
+  transform: scale(1.1, 1.1);
+  transition: transform 100ms;
+}
+
+.return-box {
+  left: 50px;
+  background-color: blue;
+  outline: 2px solid cyan;
+}
+
+.proceed-box {
+  right: 100px;
+  background-color: red;
+  outline: 2px solid salmon;
 }

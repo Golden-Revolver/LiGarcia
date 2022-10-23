@@ -2,15 +2,17 @@
 <html>
   <head>
       <title>CLIMATRON</title>
-      <meta charset="UTF-8"
+      <meta charset="UTF-8">
       <meta name="author" content="Christian Brandon B. Garcia,
         Alyssa Janelle F. Octaviano">
     	<meta name="keywords" content="HTML, CSS, JavaScript">
-    	<meta name="revised" content="01-Oct-2022">
+    	<meta name="revised" content="23-Oct-2022">
       <link rel="stylesheet" href="../style.css" type="text/css">
   </head>
 
   <body>
+
+    <!-- Heading -->
     <div class="heading" id="f-heading">
       <ul>
         <li> 
@@ -21,8 +23,8 @@
           <strong> CLIMATRON </strong> 
         </li>
         <li>
-          <a href="../webpages/fossil-fuels.html" 
-            style="text-decoration:underline">Fossil Fuels</a>
+          <a href="../webpages/fossil-fuels.html"
+            id="current-page"> Fossil Fuels</a>
         </li>
         <li>
           <a href="../webpages/deforestation.html">
@@ -105,8 +107,9 @@
                 alt="Picture of fossil fuels" title="Chapter One">
               <h1>What Are Fossil Fuels?</h1>
               <p>
-                Fossil fuels are bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla...
+                Fossil fuels make up the majority of our total
+                energy consumption. Let us explore its 3 different
+                types.
               </p>
             </div>
           </a>
@@ -116,8 +119,9 @@
                 alt="Picture of shell logo" title="Chapter Two">
               <h1>An Unhealthy Addiction</h1>
               <p>
-                We are reliant on fossil fuels because bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla...
+                As primary sources of energy, we are dependent on
+                fossil fuels in our everyday lives. But a big
+                problem still awaits...
               </p>
             </div>
           </a>
@@ -127,26 +131,30 @@
                 alt="Picture of hot earth" title="Chapter Three">
               <h1>Our World In Chaos</h1>
               <p>
-                These can release a number of greenhouse gases,
-                which trap heat in the atmosphere bla bla bla bla...
+                The burning of fossil fuels have released
+                greenhouse gases that have risen Earth's
+                temperatures by 1.2 degrees Celsius...
               </p>
             </div>
           </a>
           <a href="#chapter-four">
-          <div class="section-four">
-            <img src="../images/magnifying-glass-icon.png"
-              alt="Picture of a magnifying glass" 
-              title="Chapter Four">
-            <h1>Some Final Thoughts</h1>
-            <p>
-              In conclusion, our dependence on fossil fuels has
-              caused great harm to the environment bla bla bla...
-            </p>
-          </div>
+            <div class="section-four">
+              <img src="../images/magnifying-glass-icon.png"
+                alt="Picture of a magnifying glass" 
+                title="Chapter Four">
+              <h1>Some Final Thoughts</h1>
+              <p>
+                As fossil fuels continue to be used worldwide
+                with millions at risk, humanity faces its greatest
+                problem: Climate change.
+              </p>
+            </div>
+          </a>
         </div>
-        <img id="arrow1" src="../images/single-arrow-icon.png"
+        <img id="top-arrow" src="../images/single-arrow-icon.png"
           alt="More content below..." title="Scroll down!">
-        <img id="arrow2" src="../images/single-arrow-icon.png"
+        <img id="bottom-arrow" 
+          src="../images/single-arrow-icon.png"
           alt="More content below..." title="Scroll down!">
       </div>
       
@@ -154,27 +162,323 @@
       <div id="chapter-one">
         <h1>What Are Fossil Fuels?</h1>
         <hr>
+        <p>
+          According to National Geographic (2022), fossil fuels are
+          the product of dead plants and animals that have
+          pressurized underground for millions of years. When they
+          died, some of their energy was stored, and through
+          immense heat and pressure, this energy became
+          compactified into the 3 fossil fuels we know of today:
+          Coal, oil, and gas.
+        </p>
+        <div class="fuel-types">
+          <div class="coal">
+            <h1>COAL</h1>
+            <img src="../images/coal-icon.png" 
+              alt="Picture of coal" title="Coal">
+            <p>
+              Coal is mostly made up of fossilized plants and can
+              be found buried in layers of sedimentary rock.
+              Through a long process known as carbonization, these
+              ancient plants are slowly crushed into ever denser
+              rocks of coal. In general, the higher the
+              carbonization, the more energy can be 
+              harnessed from the coal. Unfortunately, mining coal
+              can be dangerous as miners are usually exposed to
+              high levels of toxic dust. Moreover, the carbon that
+              plants capture is also stored in coal. When burned,
+              this carbon can escape and release harmful
+              greenhouse gases into the environment.
+            </p>
+          </div>
+          <div class="oil">
+            <h1>OIL</h1>
+            <img src="../images/oil-icon.png" 
+              alt="Picture of an oil tank" title="Oil">
+            <p>
+              Oil, also called petroleum, is made out of dead
+              plants and animals that have been heated and
+              pressurized below ground. Oil deposits can usually
+              be found in rock formations, under the ocean floor,
+              or even on the surface where oil bubbles form. On
+              land, drill rigs allow oil to be produced 24/7,
+              making it a reliable source of energy for most. On
+              sea, oil platforms are constructed to facilitate the
+              extraction of oil from our oceans. Once refined, oil
+              can be used for many things like providing fuel for
+              your car. But, just like coal, burning gasoline
+              releases stored up carbon into the atmosphere.
+            </p>
+          </div>
+          <div class="gas">
+            <h1>GAS</h1>
+            <img src="../images/gas-icon.png"
+              alt="Picture of a gas burner" title="Gas">
+            <p>
+              Similar to oil, gas (or natural gas) is formed when
+              ancient species decompose over millions of years.
+              The main difference being that natural gas is
+              primarily made out of methane; another potent
+              greenhouse gas. However, deposits of natural gas
+              are spread thinly in layers of rock, forcing
+              companies to use a process known as hydraulic
+              fracturing or fracking for short. This involves
+              using water and acid to dissolve these rocks in
+              order to release natural gas for capturing.
+              Natural gas can also be converted into liquid,
+              providing a cleaner energy source compared to the
+              previous two fossil fuels.
+            </p>
+          </div>
+        </div>
       </div>
 
       <!-- Chapter Two: An Unhealthy Addiction -->
       <div id="chapter-two">
         <h1>An Unhealthy Addiction</h1>
         <hr>
+        <p>
+          According to Our World in Data (2019), a whopping 84%
+          of our energy and 64% of our electricity came from
+          fossil fuels alone. We rely on fossil fuels for so many
+          of our basic needs like cooking, heating, fuel, lights,
+          and so much more. If we stopped using them, society as a
+          whole would collapse unless we can find some way to
+          lessen our dependence.
+        </p>
+        <div class="company-info" id="petron">
+          <h1>PETRON</h1>
+          <img src="../images/petron-icon.png" alt="Petron logo"
+            title="Welcome to Petron">
+          <p>
+            Petron is by far the largest oil refining company in
+            the Philippines. Clocking in at 30 terminals, 32
+            storage facilities and over 2,400 service stations, 
+            Petron is a major provider of fuel and oil to supply
+            our country's ever growing demand. They are the pillar
+            of Philippine transportation.
+          </p>
+        </div>
+        <div class="company-info" id="shell">
+          <h1>SHELL</h1>
+          <img src="../images/shell-icon.png" alt="Shell logo"
+            title="Welcome to Shell">
+          <p>
+            Shell is a British international oil and gas company
+            that operates in over 70 countries worldwide. With
+            82,000 employees, they are able to produce an
+            outstanding 3.2 million barrels of oil per day. It is
+            for this reason that they are in direct competition
+            with Petron in the Philippines.
+          </p>
+        </div>
+        <div class="graph-info">
+          <img src="../images/fossil-fuels-graph.png" alt="Fossil
+            fuel consumption in the Philippines" title="cool
+            graph">
+          <p>
+            For its entire history, fossil fuel consumption in
+            the Philippines has continued to increase at a rapid
+            rate. In fact, our consumption has nearly doubled in
+            the past 2 decades alone, reaching a peak of nearly
+            500 terrawatts. However, this has both good and bad
+            consequences. The good news is that more fossil fuels
+            means more energy to fuel the development and
+            economic growth of our country. The more developed we
+            are, the higher our quality of life. The bad news is
+            that more fossil fuels also means more carbon
+            emitted. This leads to a phenomenon known as global
+            warming which can have disastrous effects for our
+            nation if left unchecked. In an ironic twist of fate,
+            fossil fuels, the same thing we used to industrialize
+            and advance our society to where it is now, may be the
+            one to end it in the future.
+          </p>
+        </div>
       </div>
 
-      <!-- Chapter Three: Our World In Crisis -->
+      <!-- Chapter Three: Our World In Chaos -->
       <div id="chapter-three">
-        <h1>Our World In Crisis</h1>
+        <h1>Our World In Chaos</h1>
         <hr>
+        <p>
+          The greenhouse effect is the trapping of heat inside the
+          atmosphere due to the presence of greenhouse gases. They
+          are essential for our survival as without them, the
+          Earth would be nothing more than a frozen wasteland.
+          However, too much of a good thing is a bad thing. The
+          primary waste product of fossil fuels, carbon dioxide,
+          just so happens to be a greenhouse gas. Because of this,
+          we are producing more carbon dioxide than is lost,
+          resulting in increased temperatures. The adverse effects
+          of global warming are:
+        </p>
+        <div class="adverse-effects" id="storm">
+          <img src="../images/storm-icon.png" 
+            alt="Picture of a storm" title="Storm">
+          <h1>STRONGER STORMS</h1>
+        </div>
+        <div class="adverse-effects" id="tsunami">
+          <img src="../images/tsunami-icon.png" 
+            alt="Picture of a tsunami" title="Tsunami">
+          <h1>RISING SEA LEVELS</h1>
+        </div>
+        <img src="../images/gradient-circle-icon.png"
+          alt="Global warming" title="1.2 degrees">
+        <div class="temperature">
+          <h1>1.2°</h1>
+          <h2>Celsius</h2>
+          <img src="../images/vertical-arrow-icon.png"
+            alt="Temperature increase" title="+">
+        </div>
+        <div class="adverse-effects" id="famine">
+          <img src="../images/famine-icon.png" 
+            alt="Picture of no rice bowl" title="Famine">
+          <h1>LOW RESOURCES</h1>
+        </div>
+        <div class="adverse-effects" id="fire">
+          <img src="../images/fire-icon.png" 
+            alt="Picture of fire" title="Fire">
+          <h1>FREQUENT WILDFIRES</h1>
+        </div>
       </div>
 
       <!-- Chapter Four: Some Final Thoughts -->
       <div id="chapter-four">
         <h1>Some Final Thoughts</h1>
         <hr>
+        <p>
+          To sum things up, fossil fuels are formed from ancient
+          plants and animals that have been heated and pressurized
+          over the years. The energy and carbon stored within them
+          are released when they are burned, making fossil fuels
+          both a useful source of electricity and a harmful source
+          of greenhouse gases. Our reliance on fossil fuels has
+          caused demand to skyrocket, exacerbating both climate
+          change and global warming due to carbon dioxide in the
+          atmosphere. As the Earth continues to warm and the
+          situation grows desperate,
+          <br><br>
+          <strong>
+            Can humanity overcome this crisis as they have done
+            many times before?
+          </strong>
+        </p>
+        <div class="organizations">
+          <h1>HELP US IN THE FIGHT AGAINST CLIMATE CHANGE!</h1>
+          <div id="greenpeace">
+            <img src="../images/greenpeace-icon.png" 
+              alt="Greenpeace logo" title="Greenpeace">
+            <p>Greenpiece</p>
+          </div>
+          <div id="oceanic-global">
+            <img src="../images/oceanic-global-icon.png" 
+              alt="Oceanic Global logo" title="Oceanic Global">
+            <p>Oceanic Global</p>
+          </div>
+          <div id="climatron">
+            <img src="../images/climatron-icon.png"
+              alt="Climatron logo" title="Climatron">
+            <p>Climatron</p>
+          </div>
+          <div id="united-nations">
+            <img src="../images/united-nations-icon.png" 
+              alt="United Nations logo" title="United Nations">
+            <p>United Nations</p>
+          </div>
+          <div id="unilever">
+            <img src="../images/unilever-icon.png"
+              alt="Unilever logo" title="Unilever">
+            <p>Unilever</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- References -->
+    <div class="references">
+      <img src="../images/divider-line-icon.png"
+        alt="End of page" title="References">
+      <div class="references-title">
+        <img id="reverse-line" src="../images/fancy-line-icon.png" 
+          alt="List of references" title="References >>">
+        <h1>REFERENCES</h1>
+        <img src="../images/fancy-line-icon.png"
+          alt="List of references" title="<< References">
+      </div>
+      <ul>
+        <li>
+          National Geographic. (2022). <cite>Fossil fuels.</cite>
+          https://education.nationalgeographic.org/resource/fossil-fuels
+        </li>
+        <li>
+          National Geographic. (2022). 
+          <cite>Non-renewable energy</cite>
+          https://education.nationalgeographic.org/resource/non-renewable-energy
+        </li>
+        <li>
+          Ritchie H., Rosado P., Roser M. (2019). 
+          <cite>Fossil fuels.</cite> Our World in Data. 
+          https://ourworldindata.org/fossil-fuels
+        </li>
+        <li>
+          Petron logo [Online image]. (2018). Petron.
+          https://www.petron.com/
+        </li>
+        <li>
+          Petron. (2018). <cite>Our distribution.</cite>
+          https://www.petron.com/who-we-are/our-distribution/
+        </li>
+        <li>
+          Shell logo [Online image]. (2022). Shell.
+          https://www.shell.com/
+        </li>
+        <li>
+          Shell. (2021). <cite>Who we are</cite>
+          https://www.shell.com/about-us/who-we-are.html
+        </li>
+        <li>
+          Lombrana M.L. (2020). 
+          <cite>Global temperatures already 1.2ºC above pre
+            industrial levels.</cite> Bloomberg.
+          https://www.bloomberg.com/news/articles/2020-12-02/global-temperatures-already-1-2-c-above-pre-industrial-levels
+        </li>
+        <li>
+          Greenpeace logo. [Online image]. (2022). Greenpeace.
+          https://www.greenpeace.org/philippines/
+        </li>
+        <li>
+          Oceanic global logo. [Online image]. (2018). 
+          Oceanic Global. https://oceanic.global/
+        </li>
+        <li>
+          United nations logo. [Online image]. (2022). 
+          United Nations. https://www.un.org/en/
+        </li>
+        <li>
+          Unilever logo. [Online image]. (2013). Unilever.
+          https://www.unilever.com/
+        </li>
+      </ul>
+      
+      <div class="final-message">
+        <img src="../images/heart-icon.png" alt="Thank you!" 
+          title="<3">
+        <h2>Saving the environment.</h2>
+        <h1>Starting with YOU</h1>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <hr>
+        <p>CS Quarter 1 Project</p>
+        <p>Batch 2026 Lithium</p>
+        <p>Christian Brandon B. Garcia</p>
+        <p>Alyssa Janelle F. Octaviano</p>
       </div>
       
-      <p class="test1">Test</p>
+    </div> 
+      
     </div>
   </body>
 </html>
