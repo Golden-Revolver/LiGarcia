@@ -4,48 +4,62 @@
 <html>
   <head>
     <title>CLIMATRON</title>
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
     <meta name="author" content="Christian Brandon B. Garcia,
       Alyssa Janelle F. Octaviano">
   	<meta name="keywords" content="HTML, CSS, JavaScript">
-  	<meta name="revised" content="01-Oct-2022">
+  	<meta name="revised" content="23-Oct-2022">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/x-icon"
+      href="/images/favicon-icon.ico">
   </head>
 
   <body>
-    <div id="heading" class="default-text">
+    
+    <!-- Heading -->
+    <div class="heading" id="i-heading">
       <ul>
         <li> 
           <img src="images/climatron-icon.png" alt="picture of
                our glorious icon" title="uwu">
         </li>
-        <li> <strong> CLIMATRON </strong> </li>
+        <li> 
+          <strong> CLIMATRON </strong> 
+        </li>
         <li>
           <a href="webpages/fossil-fuels.html">Fossil Fuels</a>           </li>
         <li>
           <a href="webpages/deforestation.html">Deforestation</a>         </li>
-        <li><a href="webpages/waste.html">Waste</a></li>
-        <li><a href="webpages/solutions.html">Solutions</a></li>
+        <li>
+          <a href="webpages/waste.html">Waste</a>
+        </li>
+        <li>
+          <a href="webpages/solutions.html">Solutions</a>
+        </li>
+        <li>
+          <input id="search-bar" placeholder="Type here...">
+        </li>
       </ul>
-      <div id="search-bar">
-        Type here...
-        <img src="images/magnifying-glass.png" alt="picture of a
-          magnifying glass" title="OwO">
-      </div>
+      <img id="magnifying-glass" src="images/search-icon.png"
+        alt="click me to search!" title="OwO">
       <a href="../index.html">
-      <img id="homepage" src="images/homepage-icon.png"
-        alt="homepage shortcut" title=":3">
+        <img id="homepage" src="images/homepage-icon.png"
+          alt="homepage shortcut" title=":3">
       </a>
     </div>
   
-    <div id="background">
+    <div class="background" id="i-background">
+
+      <!-- Our Mission -->
       <div id="our-mission">
         <ul>
           <li> 
             <img src="images/leaf-icon.png" alt="placeholder
               image" title=">:D" width="150" length="150"> 
           </li>
-          <li> <h1> Our Mission </h1> </li>
+          <li> 
+            <h1> Our Mission </h1> 
+          </li>
           <li> 
             <strong> Climatron </strong> is our way of
             informing the masses on the effects of climate change.
@@ -55,183 +69,130 @@
           </li>
         </ul>
       </div>
-    
-      <ul id="webpages" class="default-text">
+
+      <!-- Webpages -->
+      <ul class="webpages">
         <li>
           <a href="webpages/fossil-fuels.html">
-          <div id="fossil-fuels">
-            <strong> FOSSIL FUELS </strong>
-            <img src="images/fossil-fuels-icon.png" alt="image of
-              fossil fuels" title="woah">
-          </div>
+            <div id="fossil-fuels">
+              <strong> FOSSIL FUELS </strong>
+              <img src="images/fossil-fuels-icon.png" alt="image
+                of fossil fuels" title="woah">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
           </a>
         </li>
         <li>
           <a href="webpages/deforestation.html">
-          <div id="deforestation">
-            <strong> DEFORESTATION </strong>
-            <img src="images/deforestation-icon.png" alt="image of
-              deforestation" title="a">
-          </div>
+            <div id="deforestation">
+              <strong> DEFORESTATION </strong>
+              <img src="images/deforestation-icon.png" alt="image
+                of deforestation" title="a">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
           </a>
         </li>
         <li>
           <a href="webpages/waste.html">
-          <div id="waste">
-            <strong> WASTE </strong>
-            <img src="images/waste-icon.png" alt="image of waste"
-              title="hidden">
-          </div>
+            <div id="waste">
+              <strong> WASTE </strong>
+              <img src="images/waste-icon.png" alt="image of
+                waste" title="hidden">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
+          </a>
         </li>
         <li>
           <a href="webpages/solutions.html">
-          <div id="solutions">
-            <strong> SOLUTIONS </strong>
-            <img src="images/solutions-icon.png" alt="image of
-              windmills" title="message">
-          </div>
+            <div id="solutions">
+              <strong> SOLUTIONS </strong>
+              <img src="images/solutions-icon.png" alt="image of
+                windmills" title="message">
+              <img class="arrow" 
+                src="images/double-arrow-icon.png"
+                alt="click me" title="learn more...">
+            </div>
+          </a>
         </li>
       </ul>
-    
-      <div id="footer">
-        <h1> <strong> REFERENCES </strong> </h1>
-        <hr>
-        <ul>
-          <li>canva.com</li>
-          <li>Put whatever references u want here</li>
-        </ul>
+      
+      <!-- Footer -->
+      <div class="footer">
+        <p>CS Quarter 1 Project</p>
+        <p>Batch 2026 Lithium</p>
+        <p>Christian Brandon B. Garcia</p>
+        <p>Alyssa Janelle F. Octaviano</p>
       </div>
+      
     </div>
   </body>
 </html>
 
-<!-- webpage no.2 (deforestation), also what we really did for the week aka major commit (github commit 4) -->
+<!-- webpage no.2 (deforestation), (github commit 5) -->
 
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CLIMATRON</title>
-    <meta charset="UTF-8"
-    <meta name="author" content="Christian Brandon B. Garcia,
-      Alyssa Janelle F. Octaviano">
-  	<meta name="keywords" content="HTML, CSS, JavaScript">
-  	<meta name="revised" content="01-Oct-2022">
-    <link rel="stylesheet" href="style.css" type="text/css">
-  
-  <style>
-    body {font-family: 'Open Sans', sans-serif;}
-
-    div#background {
-      position: relative;
-      bottom: 31px;
-      right: 8px;
-      background-image:
-        linear-gradient(to right, #008037, #7ED957, #E97433);
-      height: 1545px;
-      width: 1535px;
-    }
-
-     div#heading {
-      position: relative;
-      right: 8px;
-      bottom: 10px;
-      background-color: #41A86E;
-      width: 1471px;
-      padding: 32px;
-    }
-    
-    div#heading ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    div#heading li {
-      position: relative;
-      left: 35px;
-      bottom: 40px;
-      float: left;
-      display: block;
-      padding: 30px;
-    }
-
-    a {
-      color: black;
-      text-decoration: none;
-    }
-
-    div#heading img {
-      width: 50px;
-      length: 50px;
-    }
-
-    div#heading li img {
-      position: absolute;
-      margin-right: 15px;
-      right: 5px;
-      top: 16px;
-    }
-
-    div#search-bar {
-      position: absolute;
-      left: 875px;
-      bottom: 10px;
-      background-color: white;
-      width: 450px;
-      padding: 10px;
-      color: grey;
-    }
-
-    div#search-bar img {
-      position: absolute;
-      left: 400px;
-      bottom: -1px;
-    }
-
-    #homepage {
-      position: absolute;
-      left: 1410px;
-      bottom: 7px;
-    }
-  </style>
+      <title>CLIMATRON</title>
+      <meta charset="UTF-8">
+      <meta name="author" content="Christian Brandon B. Garcia,
+        Alyssa Janelle F. Octaviano">
+    	<meta name="keywords" content="HTML, CSS, JavaScript">
+    	<meta name="revised" content="23-Oct-2022">
+      <link rel="stylesheet" href="../style.css" type="text/css">
   </head>
 
-<body>
- <div id="heading">
-    <ul>
-      <li> 
-        <img src="../images/climatron-icon.png" alt="picture of
-             our glorious icon" title="uwu">
-      </li>
-      <li> <strong> CLIMATRON </strong> </li>
-      <li><a href="webpages/fossil-fuels.html">Fossil Fuels</a></li>
-      <li><a href="webpages/deforestation.html">Deforestation</a></li>
-      <li><a href="webpages/waste.html">Waste</a></li>
-      <li><a href="webpages/solutions.html">Solutions</a></li>
-    </ul>
-    
-    <div id="search-bar">
-      Type here...
-      <img src="../images/magnifying-glass.png" alt="picture of a
-        magnifying glass" title="OwO">
+  <body>
+    <div class="heading" id="d-heading">
+      <ul>
+        <li> 
+          <img src="../images/climatron-icon.png" alt="picture of
+               our glorious icon" title="uwu">
+        </li>
+        <li> 
+          <strong> CLIMATRON </strong> 
+        </li>
+        <li>
+          <a href="../webpages/fossil-fuels.html">
+            Fossil Fuels</a>
+        </li>
+        <li>
+          <a href="../webpages/deforestation.html"
+            id="current-page">
+            Deforestation</a>
+        </li>
+        <li>
+          <a href="../webpages/waste.html">Waste</a>
+        </li>
+        <li>
+          <a href="../webpages/solutions.html">Solutions</a>
+        </li>
+        <li>
+          <input id="search-bar" placeholder="Type here..."
+        </li>
+      </ul>
+      <img id="magnifying-glass" 
+        src="../images/search-icon.png" 
+        alt="click me to search!" title="OwO">
+      <a href="../index.html">
+        <img id="homepage" src="../images/homepage-icon.png"
+          alt="homepage shortcut" title=":3">
+      </a>
     </div>
     
-    <img id="homepage" src="../images/homepage-icon.png"
-      alt="homepage shortcut" title=":3">
-  </div>
-  <div id="background">
-  <h1>
-    <style> text-align: center </style>
-  </h1>
-  </div>
-</body>
+    <div class="background" id="f-background"></div>
 
-<!--NAVIGATION BAR-->
-  
-<div class="navigation-bar">
-      <div class="navigation-box">
-        <img src="../images/compass-icon.png" alt="a compass :D"
-          title="Greetings fellow hoverer of images.">
+    <!-- Navigation Bar -->
+    <div class="navigation-bar">
+        <div class="navigation-box">
+          <img src="../images/compass-icon.png" alt="a compass :D"
+            title="Greetings fellow hoverer of images.">
           <h1>EXPLORE</h1>
           <div class="navigation-menu">
             <a href="#chapter-one">
@@ -244,16 +205,18 @@
             <a href="#chapter-two">
               <div>
                 <span class="circle">2</span>
-                <p>Why am I being cut?</p>
+                <p>Our World Without Greens</p>
                 <hr>
               </div>
             </a>
             <a href="#chapter-three">
               <div>
                 <span class="circle">3</span>
-                <p>Where are the Greens?</p>
+                <p>No, don't cut me!</p>
                 <hr>
               </div>
+            </a>
+            <hr>
             <a href="#chapter-four">
               <div>
                 <span class="circle">4</span>
@@ -269,7 +232,7 @@
     
     <div class="content">
       
-<!-- Fossil Fuels Banner -->
+      <!-- Deforestation Banner -->
       <div class="banner">
         <div class="deforestation">
           <h1>DEFORESTATION</h1>
@@ -277,97 +240,207 @@
         <div class="deforestation-menu">
           <a href="#chapter-one">
             <div class="section-one">
+              <img src="../images/bbyetrees.png" 
+                alt="Deforestation in a nutshell" title="Chapter One">
               <h1>What is Deforestation?</h1>
               <p>
-                First of all, deforestation is bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla...
+                Deforestation is the action of clearing a wide area of trees mostly for the facilitation of human activities. We will also cover some facts and statistics in this section. 
               </p>
             </div>
           </a>
           <a href="#chapter-two">
             <div class="section-two">
-              <h1>Why am I being cut?</h1>
+              <img src="../images/worldtree.png" 
+                alt="Picture of a tree with the world" title="Chapter Two">
+              <h1>World Without Greens</h1>
               <p>
-                bla bla blabla bla bla bla bla bla bla bla bla bla bla bla...
+                Causes and Effects of Deforestation, how it will affect us and Mother Earth in general.
+          
               </p>
             </div>
           </a>
           <a href="#chapter-three">
             <div class="section-three">
-              <h1>Where are the Greens?</h1>
+              <img src="../images/cuttrees.png" 
+                alt="Picture of cutting trees" title="Chapter Three">
+              <h1>No, don't cut me!</h1>
               <p>
-                bla bla bla bla...
+                Reasons why we shouldn't take part in deforestation. Let's take action! In this section, we will go over what we can do to prevent deforestation. Bear in mind, a little help goes a long way. 
               </p>
             </div>
           </a>
           <a href="#chapter-four">
             <div class="section-four">
+              <img src="../images/finalyay.png"
+                alt="Picture of trees" 
+                title="Chapter Four">
               <h1>Some Final Thoughts</h1>
               <p>
-                In conclusion, deforestation has
-                caused great harm to the environment bla bla bla...
+                With deforestation stil happening tremendously up to this day. We knew the consequences and now, humanity faces one of its greatest problem: Climate change.
               </p>
             </div>
           </a>
         </div>
-        <img id="arrow1" src="../images/single-arrow-icon.png"
+        <img id="top-arrow" src="../images/single-arrow-icon.png"
           alt="More content below..." title="Scroll down!">
-        <img id="arrow2" src="../images/single-arrow-icon.png"
+        <img id="bottom-arrow" 
+          src="../images/single-arrow-icon.png"
           alt="More content below..." title="Scroll down!">
       </div>
       
-      <!-- Chapter One: What Is Deforestation? -->
+      <!-- Chapter One: What is Deforestation? -->
       <div id="chapter-one">
-        <h1>What Are Fossil Fuels?</h1>
+        <h1>What is Deforestation?</h1>
         <hr>
         <p>
-          According to
+            Deforestation is the purposeful clearing of wide area of trees. Throughout time, up to the present, forests have been wiped out to make space for the facilitation of human activities. Activities such as agriculture and animal grazing, obtaining wood for fuel and paper production, manufacturing, and construction. <br> <br>
+          
+            Today, tropical rainforests are experiencing the highest deforestation, which is aided by massive road development into previously almost inaccessible areas. They say that, forests become more exploitable when highways are constructed or upgraded through them. Slash-and-burn agriculture, a method of agriculture wherein trees and shrubs are cleared and burned to create cropland, is a big contributor to deforestation in the tropics. This agricultural method make farmers burn big areas of forest, the ash being used later as fertilizer for the crops. However, this land is only fertile for a few years, and when ‘that’ few years is done, the farmers will move on to a different area, and repeat the process. With this being said, deforestation is done repeatedly in an inconvenient manner. Furthermore, tropical rainforests are also cleared to make way for oil palm and rubber tree plantations, logging, and cattle ranching. <br> <br> <br>
+
+          <h2> HERE ARE 15 “DID YOU KNOW?” STATEMENTS REAGARDING DEFORESTATION </h2>
+          <ol>
+        <li>
+          31% of the earth’s surface is covered by forests, approximately 4.06 billion hectares <br> 
+        </li>
+        <li>
+          Only 18% of the world's forests are on land protected from deforestation. <br> <br>
+        </li>
+        <li>
+          Over 420 million hectares of forest have been lost since 1990. <br> <br>
+        </li>
+        <li>
+          Between 1990-2010 an average of 15.5 million hectares of forest were destroyed every year. <br> <br>
+        </li>
+        <li>
+          Between 2010-2015 12 million hectares of forest were destroyed every year giving a 22.58% decline for 2010-2015 compared to 1990-2010.<br> <br>
+        </li>
+        <li>
+          Between 2015-2020 10 million hectares of forest were destroyed every year giving a 35.48% decline for 2015-2020 compared to 1990-2010 and 16.67% decline compared to 2010-2015. <br> <br>
+        </li>
+        <li>
+          2,400 trees are cut down each minute. <br> <br>
+        </li>
+        <li>
+          Currently, the most widespread deforestation is occurring in the Amazon rainforest located in South America.  <br> <br>
+        </li>
+        <li>
+          25.8 million hectares of forest were lost in 2020, double the amount of forested land lost in 2001. <br> <br>
+        </li>
+        <li>
+          Tropical deforestation contributes about 20% of annual global greenhouse gases (GHG) emissions. <br> <br>
+        </li>
+        <li>
+          Prior to 2019, greenhouse gas emission from tropical forest degradation was seriously underestimated. <br> <br>
+        </li>
+        <li>
+         In 2019, approximately 9 million acres of rainforests were destroyed. <br> <br>
+        </li>
+        <li>
+          Deforestation causes approximately $2 trillion to $4.5 trillion in lost biodiversity each year. 137 different species of plants, animals, and birds are lost every single day due to global forest loss. <br> <br>
+        </li>
+        <li>
+          Approximately 1,400 tree species are currently listed as critically endangered. <br> <br>
+        </li>   
+        <li>
+          90 percent of people who live in extreme poverty depend on forests for their survival.
+        </li>   
+      </ol>
         </p>
-      </div>
 
-      <!-- Chapter Two: Why am I being cut? -->
+        
+      <!-- Chapter Two: World Without Greens -->
       <div id="chapter-two">
-        <h1>Why am I being cut?</h1>
+        <h1>World Without Greens</h1>
         <hr>
-      </div>
+        <p>
+          Deforestation occurs deliberately, naturally, or accidentally, and can happen anywhere in densely populated land. Below is a list of causes of deforestation and their effects. Take time to read it and better, reflect on your actions. Did I contribute to deforestation without realizing it? 
+          <h2>CAUSES 101</h2>
+          There are a lot of possible causes of deforestation. These are the four most common ones. <br> <br>
+              
+              1. Forests cleared to build factories, businesses, or homes. <br> <br>
+              
+              2. Forests cleared for agriculture and farmland. (paper mills and sugar refineries) <br> <br> 
+              
+              3. Forests cleared to create pastures for livestock. <br> <br> 
+              
+              4. Forests burned by wildfires.
+          
+          <h2>EFFECTS 101</h2>
+          
+              1. Atmospheric Effects of Deforestation (Climate change and global warming) – We all know from our science class that trees absorb carbon dioxide and release oxygen. As trees are cut down, this carbon dioxide is later on released back to the atmosphere increasing the amount of greenhouse gasses in our atmosphere. As a result, global warming. <br> <br>
+              
+              2. Atmospheric Water –Trees take part in controlling the level of water found in the atmosphere. As trees are cut down, there is less water available in the atmosphere for the soil to absorb. This results to drier soil and will no longer support agriculture and cattle ranching. <br> <br>
+              
+              3. Loss of Habitat – 80% of Earth’s known animal and plant species live in forests. Forests’ trees provide shelter, while its canopy helps regulate temperature and light. These trees removed result in a change in temperature and increased sunlight, and this might be fatal for all forest animal and plant species. Overall, this loss of habitat can result in the endangerment or extinction of known species, and worst, the loss of unknown species. A decrease in global biodiversity is also evident. 
+<br> <br>
 
-      <!-- Chapter Three: Where are the Greens? -->
+           4. Flooding and Soil Erosion – Almost every plant species, may it be underground, tree, shrub, bush, and grassroots, all work together to prevent soil erosion. Without trees, the ground becomes barren and more vulnerable to flooding as valuable topsoil erodes and washes away. 
+ <br> <br>
+              
+            </p>
+          </div>
+        
+
+      <!-- Chapter Three: No, don't cut me! -->
       <div id="chapter-three">
-        <h1>Where are the Greens?</h1>
+        <h1>No, don't cut me!</h1>
         <hr>
-      </div>
+        <p>
+          naantok na ako gawin ko to mamaya
+        </p>
+        
 
       <!-- Chapter Four: Some Final Thoughts -->
       <div id="chapter-four">
         <h1>Some Final Thoughts</h1>
         <hr>
+        <p>
+          To sum things up, deforestation 
+          <br><br>
+          <em>
+            Can humanity overcome this crisis as they have done
+            many times before?
+          </em>
+        </p>
+       <div class="organizations">
+          <h1>HELP US IN THE FIGHT AGAINST CLIMATE CHANGE!</h1>
+          <div id="greenpeace">
+            <img src="../images/greenpeace-icon.png" 
+              alt="Greenpeace logo" title="Greenpeace">
+            <p>Greenpiece</p>
+          </div>
+          <div id="oceanic-global">
+            <img src="../images/oceanic-global-icon.png" 
+              alt="Oceanic Global logo" title="Oceanic Global">
+            <p>Oceanic Global</p>
+          </div>
+         <div id="climatron">
+            <img src="../images/climatron-icon.png"
+              alt="Climatron logo" title="Climatron">
+            <p>Climatron</p>
+          </div>
+          <div id="united-nations">
+            <img src="../images/united-nations-icon.png" 
+              alt="United Nations logo" title="United Nations">
+            <p>United Nations</p>
+          </div>
+          <div id="unilever">
+            <img src="../images/unilever-icon.png"
+              alt="Unilever logo" title="Unilever">
+            <p>Unilever</p>
+          </div>
+        </div>
       </div>
-      
-      <p class="test1">Test</p>
     </div>
-  </body>
-</html>
 
-<!--CSS-->
+<!--CSS for homepage and deforestation webpage>
 
-/* Welcome to the external CSS file!
-   We hope you enjoy your stay. */
-
-/* FONTS */
+/* ---------- FONTS ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-/* GENERAL */
-html {overflow-x: auto;}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* ANIMATIONS */
+/* ---------- ANIMATIONS ---------- */
 @keyframes show-text {
   from {transform: translateY(-40px)};
   to {transform: translateY(0px)};
@@ -397,7 +470,16 @@ html, body {
   }
 }
 
-/* ---------- HOMEPAGE ---------- */
+/* ---------- GENERAL ---------- */
+html {overflow-x: auto;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .heading a, .webpages a,
 .navigation-menu a 
 {
@@ -417,8 +499,9 @@ html, body {
 
 #i-heading {background-color: #CAD6FF;}
 #f-heading {background-color: #FDCE63;}
+#d-heading {background-color: green;}
   
-.heading ul {
+.heading ul, .organizations ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -433,7 +516,7 @@ html, body {
   padding: 30px;
 }
 
-.heading li a:hover {
+.heading li a:hover, #current-page {
   text-decoration: underline;
 }
 
@@ -485,7 +568,7 @@ html, body {
 #i-background {
   background-image:
     linear-gradient(to right, #5E99FF, #FF775F);
-  height: 545px;
+  height: 649px;
 }
 
 #f-background {
@@ -494,10 +577,50 @@ html, body {
   height: 649px;
 }
 
+#d-background  {
+  background-image:
+    url("../images/f-background.png");
+    height: 649px;
+
+}
+
+#c-background {
+  background-image:
+    linear-gradient(to right, lavender, cyan);
+  height: 713px;
+  top: 0px;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  background-image:
+    linear-gradient(to right, #00C4CC, #7C2AE8);
+  width: 1527px;
+  height: 64px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer p {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  border-top: 2px dashed white;
+  border-right: 1px solid white;
+  margin: 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ---------- HOMEPAGE ---------- */
 #our-mission {
   position: absolute;
   left: 20px;
-  top: 5px;
+  top: 25px;
   background-color: #CAD6FF;
   width: 500px;
   height: 294px;
@@ -527,7 +650,7 @@ html, body {
 .webpages {
   position: absolute;
   left: 780px;
-  top: 0px;
+  top: 20px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -579,484 +702,14 @@ html, body {
 .webpages #waste {background-color: #70C573;}
 .webpages #solutions {background-color: #38B6FF;}
 
-.footer {
-  position: relative;
-  top: 545px;
-  background-color: #FF5757;
-  border-top: 2px dashed black;
-  width: 1527px;
-  height: 102px;
-  color: white;
-}
-
-.footer h1 {
-  position: absolute;
-  left: 60px;
-  top: 8px;
-}
-
-.footer hr {
-  position: absolute;
-  bottom: -8px;
-  right: 1210px;
-  height: 98px;
-}
-
-.footer ul {
-  position: absolute;
-  left: 380px;
-  bottom: 10px;
-}
-
-/* Placeholder class */
-.test1 {
-  position: relative;
-  top: 2000px;
-}
-
-/* ---------- FOSSIL FUELS ---------- */
-.navigation-bar {
-  position: fixed;
-  left: -200px;
-  width: 150px;
-  height: 713px;
-  z-index: 20;
-  margin-left: 0px;
-  transition: margin 500ms;
-}
-
-.navigation-bar img {
-  position: relative;
-  bottom: 484px;
-  left: 200px;
-  width: 48px;
-  height: 256px;
-}
-
-.navigation-bar:hover {
-  margin-left: 200px;
-  transition: margin 500ms;
-}
-
-.navigation-box {
-  width: 200px;
-  height: 713px;
-  background-color: white;
-}
-
-.navigation-box > img {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 100px;
-  height: 100px;
-}
-
-.navigation-box h1 {
-  position: absolute;
-  font-size: 16px;
-  top: 160px;
-  left: 64px;
-}
-
-.navigation-menu {
-  position: absolute;
-  width: 190px;
-  height: 463px;
-  top: 210px;
-}
-
-.navigation-menu p {
-  position: absolute;
-  font-size: 12px;
-  text-align: left;
-  width: 150px;
-  left: 55px;
-}
-
-.circle {
-  display: flex;
-  position: absolute;
-  left: 10px;
-  width: 36px;
-  height: 36px;
-  background-color: blue;
-  border-radius: 50%;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  font-weight: bold;
-  color: white;
-}
-
-.navigation-menu div {
-  display: flex;
-  position: relative;
-  width: 200px;
-  height: 75px;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.navigation-menu hr {
-  position: absolute;
-  width: 180px;
-  top: 66px;
-  left: 10px;
-  color: white;
-}
-
-.navigation-menu div:hover {
-  background-color: yellow;
-}
-
-.content {
-  position: absolute;
-  top: 64px;
-  width: 1327px;
-  height: 1545px;
-  margin: 50px 100px 50px 100px;
-}
-
-.content > div {
-  height: 649px;
-  padding-top: 64px;
-}
-
-.banner {
-  height: 599px;
-}
-
-.banner img {
-  width: 170px;
-  height: 160px;
-}
-
-.banner > img {
-  position: absolute;
-  width: 80px;
-  height: 40px;
-  left: 624px;
-  animation: scroll-down 2s infinite;
-}
-
-#arrow1 {
-  top: 480px;
-  animation-delay: 250ms;
-}
-
-#arrow2 {
-  top: 520px;
-}
-
-.fossil-fuels {
-  display: flex;
-  position: absolute;
-  left: 589px;
-  top: 200px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  outline: 1px solid grey;
-  outline-offset: -10px;
-  background-color: white;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  z-index: 10;
-}
-
-.fossil-fuels h1 {
-  font-size: 1.5em;
-}
-
-.fossil-fuels-menu {
-  position: absolute;
-  left: 164px;
-  width: 1000px;
-  height: 400px;
-  outline: 4px solid black;
-}
-
-.section-one {
-  position: absolute;
-  width: 500px;
-  height: 200px;
-  background-color: #263238;
-  outline: 2px solid black;
-}
-
-.section-one img {
-  position: absolute;
-  top: 10px;
-  width: 125px;
-  height: 65px;
-}
-
-.section-two img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-three img {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-four img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 60px;
-  height: 65px;
-}
-
-.section-one h1 {
-  position: absolute;
-  left: 125px;
-  top: 0px;
-  color: white;
-}
-
-.section-two h1 {
-  position: absolute;
-  right: 100px;
-  color: white;
-}
-
-.section-three h1 {
-  position: absolute;
-  left: 100px;
-  color: white;
-}
-
-.section-four h1 {
-  position: absolute;
-  right: 80px;
-  color: white;
-}
-
-.fossil-fuels-menu p {
-  opacity: 0;
-  position: absolute;
-  top: 75px;
-  color: white;
-  margin-left: 10px;
-  margin-right: 10px;
-  transition: opacity 100ms;
-  animation-name: hide-text;
-  animation-duration: 200ms;
-}
-
-.section-two p, .section-four p {
-  text-align: right;
-}
-
-.section-one:hover > p, .section-two:hover > p,
-.section-three:hover > p, .section-four:hover > p
-{
-  opacity: 1;
-  transition: opacity 100ms;
-  animation-name: show-text;
-  animation-duration: 200ms;
-}
-
-.section-one:hover, .section-two:hover,
-.section-three:hover, .section-four:hover 
-{filter: brightness(125%);}
-
-.section-three:hover {
-  background-color: #FF4444;
-}
-
-.section-two {
-  position: absolute;
-  right: 0px;
-  width: 500px;
-  height: 200px;
-  background-color: #FF914D;
-  outline: 2px solid black;
-}
-
-.section-three {
-  position: absolute;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #FC0B00;
-  outline: 2px solid black;
-}
-
-.section-four {
-  position: absolute;
-  right: 0px;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #55AA00;
-  outline: 2px solid black;
-}
-
-#chapter-two h1 {
-  text-align: right;
-}
-
-#chapter-four h1 {
-  text-align: right;
-}
-
 /* ---------- DEFORESTATION ---------- */
-
-.navigation-bar {
-  position: fixed;
-  left: -200px;
-  width: 150px;
-  height: 713px;
-  z-index: 20;
-  margin-left: 0px;
-  transition: margin 500ms;
-}
-
-.navigation-bar img {
-  position: relative;
-  bottom: 484px;
-  left: 200px;
-  width: 48px;
-  height: 256px;
-}
-
-.navigation-bar:hover {
-  margin-left: 200px;
-  transition: margin 500ms;
-}
-
-.navigation-box {
-  width: 200px;
-  height: 713px;
-  background-color: white;
-}
-
-.navigation-box > img {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 100px;
-  height: 100px;
-
-}
-
-.navigation-box h1 {
-  position: absolute;
-  font-size: 16px;
-  top: 160px;
-  left: 64px;
-}
-
-.navigation-menu {
-  position: absolute;
-  width: 190px;
-  height: 463px;
-  top: 210px;
-}
-
-.navigation-menu p {
-  position: absolute;
-  font-size: 12px;
-  text-align: left;
-  width: 150px;
-  left: 55px;
-}
-
-.circle {
-  display: flex;
-  position: absolute;
-  left: 10px;
-  width: 36px;
-  height: 36px;
-  background-color: blue;
-  border-radius: 50%;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  font-weight: bold;
-  color: white;
-}
-
-.navigation-menu div {
-  display: flex;
-  position: relative;
-  width: 200px;
-  height: 75px;
-
- justify-content: center;
-  flex-direction: column;
-}
-
-.navigation-menu hr {
-  position: absolute;
-  width: 180px;
-  top: 66px;
-  left: 10px;
-  color: white;
-}
-
-.navigation-menu div:hover {
-  background-color: yellow;
-}
-
-.content {
-  position: absolute;
-  top: 64px;
-  width: 1327px;
-  height: 1545px;
-  margin: 50px 100px 50px 100px;
-}
-
-.content > div {
-  height: 649px;
-  padding-top: 64px;
-}
-
-.banner {
-  height: 599px;
-}
-
-.banner img {
-  width: 170px;
-  height: 160px;
-}
-
-.banner > img {
-  position: absolute;
-  width: 80px;
-  height: 40px;
-  left: 624px;
-  animation: scroll-down 2s infinite;
-}
-
-#arrow1 {
-  top: 480px;
-  animation-delay: 250ms;
-}
-
-#arrow2 {
-  top: 520px;
-}
-
 .deforestation {
   display: flex;
   position: absolute;
-  left: 589px;
+  left: 539px;
   top: 200px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 250px;
+  height: 80px;
   outline: 1px solid grey;
   outline-offset: -10px;
   background-color: white;
@@ -1078,68 +731,23 @@ html, body {
   outline: 4px solid black;
 }
 
-.section-one {
+.deforestation-menu div {
   position: absolute;
   width: 500px;
   height: 200px;
-  background-color: #263238;
   outline: 2px solid black;
 }
 
-.section-one img {
+.deforestation-menu img {
   position: absolute;
   top: 10px;
-  width: 125px;
   height: 65px;
 }
 
-.section-two img {
+.deforestation-menu h1 {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-three img {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 70px;
-  height: 65px;
-}
-
-.section-four img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 60px;
-  height: 65px;
-}
-
-.section-one h1 {
-  position: absolute;
-  left: 125px;
-  top: 0px;
   color: white;
-}
-
-.section-two h1 {
-  position: absolute;
-  right: 100px;
-  color: white;
-}
-
-.section-three h1 {
-  position: absolute;
-  left: 100px;
-  color: white;
-}
-
-.section-four h1 {
-  position: absolute;
-  right: 80px;
-  color: white;
+  font-size: 1.5em;
 }
 
 .deforestation-menu p {
@@ -1152,63 +760,6 @@ html, body {
   transition: opacity 100ms;
   animation-name: hide-text;
   animation-duration: 200ms;
-}
+}  
 
-.section-two p, .section-four p {
-  text-align: right;
-}
-
-.section-one:hover > p, .section-two:hover > p,
-.section-three:hover > p, .section-four:hover > p
-{
-  opacity: 1;
-  transition: opacity 100ms;
-  animation-name: show-text;
-  animation-duration: 200ms;
-}
-
-.section-one:hover, .section-two:hover,
-.section-three:hover, .section-four:hover 
-{filter: brightness(125%);}
-
-.section-three:hover {
-  background-color: #FF4444;
-}
-
-.section-two {
-  position: absolute;
-  right: 0px;
-  width: 500px;
-  height: 200px;
-  background-color: #FF914D;
-  outline: 2px solid black;
-}
-
-.section-three {
-  position: absolute;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #FC0B00;
-  outline: 2px solid black;
-}
-
-.section-four {
-  position: absolute;
-  right: 0px;
-  top: 200px;
-  width: 500px;
-  height: 200px;
-  background-color: #55AA00;
-  outline: 2px solid black;
-}
-
-#chapter-two h1 {
-  text-align: right;
-}
-
-#chapter-four h1 {
-  text-align: right;
-}
-
-NOTES for this week's commit : Regarding my attempt with the navigation bar and the banner, it did turned out the way I want it be. Instead of my desired output, the content like headers and stuff just flowed vertically and not put into their right places, it looks just like a long list (outline) or somewhat similar when you enumerate things. 
+NOTES for this week's commit : For this weeks's commit, I already started putting on the content for my webpage (deforestation). We are already done with the homepage part and now we are just finishing the two webpages required for the first quarter. In my case, a little more content and then finishing touches (codes and stuff) and I think I'm good to go. 
